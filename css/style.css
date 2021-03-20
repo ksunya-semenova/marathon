@@ -16,7 +16,7 @@ body {
     background-color: #363636;
     color: c3c3c3;
     padding: 10px;    
-    background: url(img/image1.png);
+    background: url(/img/image1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -246,19 +246,19 @@ body {
 }
 
 .grid-container2 {
-    background: url("img/Rectangle\ 134.png"); 
+    background: url("/img/Rectangle\ 134.png"); 
     width: 690px;
     height: 450px; 
 }
 
 .grid-container3 {
-    background: url("img/Rectangle 132.png");
+    background: url("/img/Rectangle 132.png");
     width:690px;
     height: 450px; 
 }
 
 .grid-container4 {
-    background: url("img/image\ 56.png");
+    background: url("/img/image\ 56.png");
     width: 490px;
     height: 450px;
     margin-left: 200px;
@@ -568,39 +568,24 @@ body {
 }
 
 .footer-container {
-    float: left;
+    justify-content: baseline;
     width: 1200px;
-}
-
-.phone {
-    display: flex;
+    height: 105px;
     margin: 0;
-    padding: 0;
-    width: 161px;
-    height: 30px;
-    text-align: center;
+    padding-top: 40px;
 }
 
-.address {
-    width: 451px;
-    height: 30px;
+.footer-container li {
+    float: left;
+    list-style: none;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
     color: #533738;
-}
-
-.company {
-    width: 167px;
-    height: 30px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
-    color: #533738;
+    margin-right: 40px;
 }
 
 .footer-container li:last-child{
-    margin-right: 0;
+    float: right;
 }
