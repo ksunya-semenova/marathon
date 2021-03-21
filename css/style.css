@@ -16,7 +16,7 @@ body {
     background-color: #363636;
     color: c3c3c3;
     padding: 10px;    
-    background: url('/img/image1.png');
+    background: url('../img/image1.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -247,19 +247,19 @@ body {
 }
 
 .grid-container2 {
-    background: url("/img/Rectangle 134.png"); 
+    background: url("../img/Rectangle 134.png"); 
     width: 690px;
     height: 450px; 
 }
 
 .grid-container3 {
-    background: url("/img/Rectangle 132.png");
+    background: url("../img/Rectangle 132.png");
     width:690px;
     height: 450px; 
 }
 
 .grid-container4 {
-    background: url("/img/image 56.png");
+    background: url("../img/image 56.png");
     width: 490px;
     height: 450px;
     margin-left: 200px;
